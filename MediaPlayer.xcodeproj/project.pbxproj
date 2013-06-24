@@ -1,0 +1,300 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9EA9948E1326F9DB00F3C46C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EA9948D1326F9DB00F3C46C /* UIKit.framework */; };
+		9EA994901326F9DB00F3C46C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EA9948F1326F9DB00F3C46C /* Foundation.framework */; };
+		9EA994921326F9DB00F3C46C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EA994911326F9DB00F3C46C /* CoreGraphics.framework */; };
+		9EA994981326F9DB00F3C46C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9EA994961326F9DB00F3C46C /* InfoPlist.strings */; };
+		9EA9949B1326F9DB00F3C46C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EA9949A1326F9DB00F3C46C /* main.m */; };
+		9EA9949E1326F9DB00F3C46C /* MediaPlayerAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EA9949D1326F9DB00F3C46C /* MediaPlayerAppDelegate.m */; };
+		9EA994A11326F9DB00F3C46C /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9EA9949F1326F9DB00F3C46C /* MainWindow.xib */; };
+		9EA994AA1326F9FC00F3C46C /* MediaPlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EA994A81326F9FC00F3C46C /* MediaPlayerViewController.m */; };
+		9EA994AB1326F9FC00F3C46C /* MediaPlayerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9EA994A91326F9FC00F3C46C /* MediaPlayerViewController.xib */; };
+		9EA994AD1326FB1900F3C46C /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EA994AC1326FB1900F3C46C /* AudioToolbox.framework */; };
+		9EA994AF1326FB6000F3C46C /* Sound12.aif in Resources */ = {isa = PBXBuildFile; fileRef = 9EA994AE1326FB6000F3C46C /* Sound12.aif */; };
+		9EA994B11326FD8100F3C46C /* Music.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9EA994B01326FD8100F3C46C /* Music.mp3 */; };
+		9EA994B31326FDAB00F3C46C /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EA994B21326FDAB00F3C46C /* AVFoundation.framework */; };
+		9EA994B51327010400F3C46C /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EA994B41327010400F3C46C /* MediaPlayer.framework */; };
+		9EA994B7132701DC00F3C46C /* Layers.m4v in Resources */ = {isa = PBXBuildFile; fileRef = 9EA994B6132701DC00F3C46C /* Layers.m4v */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9EA994891326F9DB00F3C46C /* MediaPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MediaPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9EA9948D1326F9DB00F3C46C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		9EA9948F1326F9DB00F3C46C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		9EA994911326F9DB00F3C46C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		9EA994951326F9DB00F3C46C /* MediaPlayer-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MediaPlayer-Info.plist"; sourceTree = "<group>"; };
+		9EA994971326F9DB00F3C46C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9EA994991326F9DB00F3C46C /* MediaPlayer-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MediaPlayer-Prefix.pch"; sourceTree = "<group>"; };
+		9EA9949A1326F9DB00F3C46C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9EA9949C1326F9DB00F3C46C /* MediaPlayerAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MediaPlayerAppDelegate.h; sourceTree = "<group>"; };
+		9EA9949D1326F9DB00F3C46C /* MediaPlayerAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MediaPlayerAppDelegate.m; sourceTree = "<group>"; };
+		9EA994A01326F9DB00F3C46C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		9EA994A71326F9FC00F3C46C /* MediaPlayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MediaPlayerViewController.h; sourceTree = "<group>"; };
+		9EA994A81326F9FC00F3C46C /* MediaPlayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MediaPlayerViewController.m; sourceTree = "<group>"; };
+		9EA994A91326F9FC00F3C46C /* MediaPlayerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MediaPlayerViewController.xib; sourceTree = "<group>"; };
+		9EA994AC1326FB1900F3C46C /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		9EA994AE1326FB6000F3C46C /* Sound12.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = Sound12.aif; sourceTree = "<group>"; };
+		9EA994B01326FD8100F3C46C /* Music.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Music.mp3; sourceTree = "<group>"; };
+		9EA994B21326FDAB00F3C46C /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		9EA994B41327010400F3C46C /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		9EA994B6132701DC00F3C46C /* Layers.m4v */ = {isa = PBXFileReference; lastKnownFileType = file; path = Layers.m4v; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9EA994861326F9DB00F3C46C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9EA994B51327010400F3C46C /* MediaPlayer.framework in Frameworks */,
+				9EA994B31326FDAB00F3C46C /* AVFoundation.framework in Frameworks */,
+				9EA994AD1326FB1900F3C46C /* AudioToolbox.framework in Frameworks */,
+				9EA9948E1326F9DB00F3C46C /* UIKit.framework in Frameworks */,
+				9EA994901326F9DB00F3C46C /* Foundation.framework in Frameworks */,
+				9EA994921326F9DB00F3C46C /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9EA9947E1326F9DA00F3C46C = {
+			isa = PBXGroup;
+			children = (
+				9EA994931326F9DB00F3C46C /* MediaPlayer */,
+				9EA9948C1326F9DB00F3C46C /* Frameworks */,
+				9EA9948A1326F9DB00F3C46C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9EA9948A1326F9DB00F3C46C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9EA994891326F9DB00F3C46C /* MediaPlayer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9EA9948C1326F9DB00F3C46C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9EA994B41327010400F3C46C /* MediaPlayer.framework */,
+				9EA994B21326FDAB00F3C46C /* AVFoundation.framework */,
+				9EA994AC1326FB1900F3C46C /* AudioToolbox.framework */,
+				9EA9948D1326F9DB00F3C46C /* UIKit.framework */,
+				9EA9948F1326F9DB00F3C46C /* Foundation.framework */,
+				9EA994911326F9DB00F3C46C /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9EA994931326F9DB00F3C46C /* MediaPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				9EA9949C1326F9DB00F3C46C /* MediaPlayerAppDelegate.h */,
+				9EA9949D1326F9DB00F3C46C /* MediaPlayerAppDelegate.m */,
+				9EA9949F1326F9DB00F3C46C /* MainWindow.xib */,
+				9EA994A71326F9FC00F3C46C /* MediaPlayerViewController.h */,
+				9EA994A81326F9FC00F3C46C /* MediaPlayerViewController.m */,
+				9EA994A91326F9FC00F3C46C /* MediaPlayerViewController.xib */,
+				9EA994AE1326FB6000F3C46C /* Sound12.aif */,
+				9EA994B01326FD8100F3C46C /* Music.mp3 */,
+				9EA994B6132701DC00F3C46C /* Layers.m4v */,
+				9EA994941326F9DB00F3C46C /* Supporting Files */,
+			);
+			path = MediaPlayer;
+			sourceTree = "<group>";
+		};
+		9EA994941326F9DB00F3C46C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9EA994951326F9DB00F3C46C /* MediaPlayer-Info.plist */,
+				9EA994961326F9DB00F3C46C /* InfoPlist.strings */,
+				9EA994991326F9DB00F3C46C /* MediaPlayer-Prefix.pch */,
+				9EA9949A1326F9DB00F3C46C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9EA994881326F9DB00F3C46C /* MediaPlayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9EA994A41326F9DB00F3C46C /* Build configuration list for PBXNativeTarget "MediaPlayer" */;
+			buildPhases = (
+				9EA994851326F9DB00F3C46C /* Sources */,
+				9EA994861326F9DB00F3C46C /* Frameworks */,
+				9EA994871326F9DB00F3C46C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MediaPlayer;
+			productName = MediaPlayer;
+			productReference = 9EA994891326F9DB00F3C46C /* MediaPlayer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9EA994801326F9DA00F3C46C /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 9EA994831326F9DA00F3C46C /* Build configuration list for PBXProject "MediaPlayer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 9EA9947E1326F9DA00F3C46C;
+			productRefGroup = 9EA9948A1326F9DB00F3C46C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9EA994881326F9DB00F3C46C /* MediaPlayer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9EA994871326F9DB00F3C46C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9EA994981326F9DB00F3C46C /* InfoPlist.strings in Resources */,
+				9EA994A11326F9DB00F3C46C /* MainWindow.xib in Resources */,
+				9EA994AB1326F9FC00F3C46C /* MediaPlayerViewController.xib in Resources */,
+				9EA994AF1326FB6000F3C46C /* Sound12.aif in Resources */,
+				9EA994B11326FD8100F3C46C /* Music.mp3 in Resources */,
+				9EA994B7132701DC00F3C46C /* Layers.m4v in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9EA994851326F9DB00F3C46C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9EA9949B1326F9DB00F3C46C /* main.m in Sources */,
+				9EA9949E1326F9DB00F3C46C /* MediaPlayerAppDelegate.m in Sources */,
+				9EA994AA1326F9FC00F3C46C /* MediaPlayerViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9EA994961326F9DB00F3C46C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9EA994971326F9DB00F3C46C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		9EA9949F1326F9DB00F3C46C /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9EA994A01326F9DB00F3C46C /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9EA994A21326F9DB00F3C46C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9EA994A31326F9DB00F3C46C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		9EA994A51326F9DB00F3C46C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MediaPlayer/MediaPlayer-Prefix.pch";
+				INFOPLIST_FILE = "MediaPlayer/MediaPlayer-Info.plist";
+				INSTALL_PATH = "$(LOCAL_APPS_DIR)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		9EA994A61326F9DB00F3C46C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MediaPlayer/MediaPlayer-Prefix.pch";
+				INFOPLIST_FILE = "MediaPlayer/MediaPlayer-Info.plist";
+				INSTALL_PATH = "$(LOCAL_APPS_DIR)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9EA994831326F9DA00F3C46C /* Build configuration list for PBXProject "MediaPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9EA994A21326F9DB00F3C46C /* Debug */,
+				9EA994A31326F9DB00F3C46C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9EA994A41326F9DB00F3C46C /* Build configuration list for PBXNativeTarget "MediaPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9EA994A51326F9DB00F3C46C /* Debug */,
+				9EA994A61326F9DB00F3C46C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9EA994801326F9DA00F3C46C /* Project object */;
+}
